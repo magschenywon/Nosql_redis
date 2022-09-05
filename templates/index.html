@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<h3>Covid Cases for U.S. n 4/4/2020 Search</h3>
+<form method="POST">
+  <label for="state">State:</label><br>
+  <input type="text" id="state" name="state"><br>
+  <label for="cases">Cases:</label><br>
+  <input type="number" id="cases" name="cases"><br>
+  <input type="radio" id="Search" name="command" value="Search">
+  <label for="Search">Search</label><br>
+  <input type="radio" id="Update" name="command" value="Update">
+  <label for="Update">ADD/Update</label><br>
+  <input type="radio" id="Delete" name="command" value="Delete">
+  <label for="Delete">Delete</label><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<textarea name="message" rows="10" cols="30">
+
+{{data}}
+
+</textarea>
